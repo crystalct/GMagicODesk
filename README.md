@@ -14,4 +14,6 @@ If you want to acquire a simpler PCB I recommend the [c64-uni-cart](https://gith
 
 Bank Selection
 --------------
-The types of cartridges listed previously, we can divide them into two types: "data" type bank selection and "address" type bank selection.<br>
+The types of cartridge listed above can be divided into two types: "data" type bank selection and "address" type bank selection.<br>
+* "Data" bank selection: Ocean, Magic Desk and GMod2. Bank switching is done by writing X to $DE00, where X is the bank number.
+* "Address" bank selection: System3, CG64GS and Dinamic. Bank switching is done by accessing address $DE00+X, where X is the bank number.
