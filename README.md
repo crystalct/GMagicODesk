@@ -9,3 +9,4 @@ Open Hardware design of a 512Kbyte C64 multipurpose type cartridge compatible wi
 * Dinamic
 
 Due to the similarity of the listed cartridge types, it was possible to create a single PCB which, with the appropriate configurations, will work perfectly as a basis for the creation of cartridges containing games developed for those cartridge types.
+Furthermore, my secondary objective was the reuse of many SMD chips at my disposal and therefore this project differs from other similar projects mainly due to the use of SMD technology, making it more complex regarding the soldering work.
