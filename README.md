@@ -1,1 +1,11 @@
 # GMagic O'Desk
+
+Open Hardware design of a 512Kbyte C64 multipurpose type cartridge compatible with the following types:
+* Ocean 128/256/512
+* Magic Desk up to 512Kbyte
+* Gmod2
+* System3
+* C64GS
+* Dinamic
+
+Due to the similarity of the listed cartridge types, it was possible to create a single PCB which, with the appropriate configurations, will work perfectly as a basis for the creation of cartridges containing games developed for those cartridge types.
