@@ -23,3 +23,8 @@ To correctly map the memory inside the FLASH an 8-bit latch (74LS273) is used an
 Schematics
 ----------
 ![schematics](./files/GMagicODesk.png)
+
+Appearance
+----------
+![appearance](./files/PCB1.1.png)
+
