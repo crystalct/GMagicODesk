@@ -31,13 +31,13 @@ Appearance
 Cartrdige Types
 ---------------
 **Ocean**
-Bank switching is done by writing to $DE00. The lower six bits give the bank number (ranging from 0-63).<br>
+<br>Bank switching is done by writing to $DE00. The lower six bits give the bank number (ranging from 0-63).<br>
 * 128K subtype: GAME = 0, EXROM = 0 (16k config), but only 16 banks of 8KiB ($2000), banked in at $8000-$9FFF, are accessed. [schematic](./files/ocean128.png)
-  <br>Games: Batman The Movie, Battle Command, Double Dragon, Navy Seals, Pang, Robocop 3, Space Gun,Toki.
+  <br>Games: *Batman The Movie, Battle Command, Double Dragon, Navy Seals, Pang, Robocop 3, Space Gun,Toki.*
 * 256K subtype: GAME = 0, EXROM = 0 (16k config), 32 banks of 8KiB ($2000), 16 banked in at $8000-$9FFF, and 16 banked in at $A000-$BFFF. [schematic](./files/ocean256.png)
-  <br>Games: Shadow of the Beast, Robocop 2, Chase HQ 2.
+  <br>Games: *Shadow of the Beast, Robocop 2, Chase HQ 2.*
 * 512K subtype: GAME = 1, EXROM = 0 (8k config) , 64 banks of 8KiB ($2000), banked in at $8000-$9FFF. [schematic](./files/ocean512.png)
-  <br>Game: Terminator 2.
+  <br>Game: *Terminator 2.*
 
 .
 
