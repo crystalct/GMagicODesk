@@ -56,7 +56,9 @@ Games: variuos modern games like *Soul Force, Aviator Acrcade II, Planet X2.1, M
 <br>ROM memory is organized in 64 banks of 8Kb ($2000), banked in at $8000-$9FFF. Bank switching is done by writing to address $DE00+X, where X is the bank number (STA $DE00,X).
 <br>GAME = 1, EXROM = 0 (8k config).<br>
 [schematic](./files/c64gs.png)
+Games: Last Ninja Remix, Myth, C64GS cartridge (International Soccer, Flimbo's Quest, Klax and Fiendish Freddy).*
 
 **Dinamic**
 <br>ROM memory is organized in 16 banks 8Kb ($2000) banks located at $8000-$9FFF. Bank switching is done by reading from address $DE00+X, where X is the bank number (LDA $DE00,X).
 <br>GAME = 1, EXROM = 0 (8k config).<br>
+Games: *After the War, Aspar GP Master, Astromarine Corps, Narco Police, Satan.*
