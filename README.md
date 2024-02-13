@@ -62,3 +62,12 @@ Games: *Last Ninja Remix, Myth, C64GS cartridge (International Soccer, Flimbo's 
 <br>ROM memory is organized in 16 banks 8Kb ($2000) banks located at $8000-$9FFF. Bank switching is done by reading from address $DE00+X, where X is the bank number (LDA $DE00,X).
 <br>GAME = 1, EXROM = 0 (8k config).<br>
 Games: *After the War, Aspar GP Master, Astromarine Corps, Narco Police, Satan.*
+
+Jumper configuration
+--------------------
+**Ocean 128**
+
+| j11 j12 | JCOMP2 | JCOMP3 | J16A1 | J16B1 | J16C1-8|JC64|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Short 2 and 3|Short 1 and 2|Short 1 and 2|Short 2 and 3|Closed|Short 2 and 3|Short 1 and 2|
+|![J2](./files/j2.png)|![J1](./files/j1.png)|![J1](./files/j1.png)|![J2](./files/j2.png)|![J4](./files/j4.png)|![J2](./files/j2.png)|![J1](./files/j1.png)|
