@@ -48,7 +48,7 @@ Cartridge Types
 Bank switching is done by writing to $DE00.
 * bit7   (rw)  write enable (write 1), EEPROM data output (read)
 * bit6   (ro)  EXROM (0=active) and EEPROM chip select (1=selected)
-* bit5-0 (ro)  rom bank  bit5 EEPROM clock bit4 EEPROM data input<br>
+* bit5-0 (ro)  rom bank, bit5 EEPROM clock, bit4 EEPROM data input<br>
 Specs at [http://wiki.icomp.de/wiki/GMod2](http://wiki.icomp.de/wiki/GMod2).<br>
 Games: variuos modern games like *Soul Force, Aviator Acrcade II, Planet X2.1, Monstro Giganto, Boxymoxy,* etc etc.
 
