@@ -44,15 +44,16 @@ Cartrdige Types
 <br>Games: *Badlands, Cyberball, Vindicators, Arcade Classic Pak, Beamrider, Decathlon, Double Dragon (Melbourne House), Frogger, Galaxions/Munchman, Ghostbusters, Kung Fu Master, Leaderboard, Novablast, Park Patrol, Pastfinder, Pitfall, Pitfall 2, River Raid, Space Shuttle, Tennis, Wonderboy, Zone Ranger.*
 
 **GMod2 (Individual Computer)**
-<br>This cart uses 512KiB Flash ROM (29F040) in 64 banks, mapped in at $8000-$9fff and has a 2KB serial EEPROM (m93C86).<br>GAME = 0, EXROM = 1 (8k config).<br>
+<br>This cart uses 512KiB Flash ROM (29F040) in 64 banks, mapped in at $8000-$9fff and has a 2Kb serial EEPROM (m93C86).<br>GAME = 0, EXROM = 1 (8k config).<br>
 Bank switching is done by writing to $DE00.
 * bit7   (rw)  write enable (write 1), EEPROM data output (read)
 * bit6   (ro)  EXROM (0=active) and EEPROM chip select (1=selected)
 * bit5-0 (ro)  rom bank  bit5 EEPROM clock bit4 EEPROM data input<br>
 Specs at [http://wiki.icomp.de/wiki/GMod2](http://wiki.icomp.de/wiki/GMod2).<br>
-Games: variuos modern games like *Sould Force, Aviator Acrcade II, Planet X2.1, Monstro Giganto, Boxymoxy,* etc etc.
+Games: variuos modern games like *Soul Force, Aviator Acrcade II, Planet X2.1, Monstro Giganto, Boxymoxy,* etc etc.
 
-**System3**
-<br>
-
+**System 3/C64GS**
+<br>ROM memory is organized in 64 banks of 8Kb ($2000), banked in at $8000-$9FFF. Bank switching is done by writing to address $DE00+X, where X is the bank number (STA $DE00,X).
+<br>GAME = 0, EXROM = 1 (8k config).<br>
+[schematic](./files/c64gs.png)
 
