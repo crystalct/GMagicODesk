@@ -40,7 +40,7 @@ Cartrdige Types
   <br>Game: *Terminator 2.*
 
 **Magic Desk, Domark, HES Australia**
-<br>Bank switching is done by writing to $DE00. The lower six (0-5) bits give the bank number (ranging from 0-64), if bit 7 is zero, the cartridge is active. If bit 7 is set ($DE00 = $80), the GAME/EXROM lines are disabled, turning on RAM at $8000-$9FFF instead of ROM. GAME = 0, EXROM = 1 (8k config).
+<br>Bank switching is done by writing to $DE00. The lower six (0-5) bits give the bank number (ranging from 0-64), if bit 7 is zero, the cartridge is active. If bit 7 is set ($DE00 = $80), the GAME/EXROM lines are disabled, turning on RAM at $8000-$9FFF instead of ROM. <br>GAME = 0, EXROM = 1 (8k config).
 <br>Games: *Badlands, Cyberball, Vindicators, Arcade Classic Pak, Beamrider, Decathlon, Double Dragon (Melbourne House), Frogger, Galaxions/Munchman, Ghostbusters, Kung Fu Master, Leaderboard, Novablast, Park Patrol, Pastfinder, Pitfall, Pitfall 2, River Raid, Space Shuttle, Tennis, Wonderboy, Zone Ranger.*
 
 
