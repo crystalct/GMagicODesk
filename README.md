@@ -28,3 +28,8 @@ Appearance
 ----------
 ![appearance](./files/PCB1.1.png)
 
+Cartrdige Types
+---------------
+*Ocean*
+
+
