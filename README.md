@@ -32,13 +32,17 @@ Cartrdige Types
 ---------------
 **Ocean**
 <br>Bank switching is done by writing to $DE00. The lower six bits give the bank number (ranging from 0-63).<br>
-* 128K subtype: GAME = 0, EXROM = 0 (16k config), but only 16 banks of 8KiB ($2000), banked in at $8000-$9FFF, are accessed. [schematic](./files/ocean128.png)
+* 128K subtype: GAME = 0, EXROM = 0 (16k config), but only 16 banks of 8Kb ($2000), banked in at $8000-$9FFF, are accessed. [schematic](./files/ocean128.png)
   <br>Games: *Batman The Movie, Battle Command, Double Dragon, Navy Seals, Pang, Robocop 3, Space Gun,Toki.*
-* 256K subtype: GAME = 0, EXROM = 0 (16k config), 32 banks of 8KiB ($2000), 16 banked in at $8000-$9FFF, and 16 banked in at $A000-$BFFF. [schematic](./files/ocean256.png)
+* 256K subtype: GAME = 0, EXROM = 0 (16k config), 32 banks of 8Kb ($2000), 16 banked in at $8000-$9FFF, and 16 banked in at $A000-$BFFF. [schematic](./files/ocean256.png)
   <br>Games: *Shadow of the Beast, Robocop 2, Chase HQ 2.*
-* 512K subtype: GAME = 1, EXROM = 0 (8k config) , 64 banks of 8KiB ($2000), banked in at $8000-$9FFF. [schematic](./files/ocean512.png)
+* 512K subtype: GAME = 0, EXROM = 1 (8k config), 64 banks of 8Kb ($2000), banked in at $8000-$9FFF. [schematic](./files/ocean512.png)
   <br>Game: *Terminator 2.*
 
-.
+**Magic Desk, Domark, HES Australia**
+<br>Bank switching is done by writing to $DE00. The lower six (0-5) bits give the bank number (ranging from 0-64), if bit 7 is zero, the cartridge is active. If bit 7 is set ($DE00 = $80), the GAME/EXROM lines are disabled, turning on RAM at $8000-$9FFF instead of ROM. GAME = 0, EXROM = 1 (8k config).
+<br>Games: *Badlands, Cyberball, Vindicators, Arcade Classic Pak, Beamrider, Decathlon, Double Dragon (Melbourne House), Frogger, Galaxions/Munchman, Ghostbusters, Kung Fu Master, Leaderboard, Novablast, Park Patrol, Pastfinder, Pitfall, Pitfall 2, River Raid, Space Shuttle, Tennis, Wonderboy, Zone Ranger.*
+
+
 
 
