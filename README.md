@@ -2,7 +2,7 @@
 
 Open Hardware design of a 512Kbyte C64 multipurpose type cartridge compatible with the following types:
 * Ocean 128/256/512
-* Magic Desk up to 512Kbyte
+* Magic Desk (Magic Desk, Domark, HES Australia) up to 512Kbyte
 * Gmod2
 * System3
 * C64GS
