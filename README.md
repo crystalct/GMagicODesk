@@ -3,7 +3,7 @@
 Open Hardware design of a 512Kbyte C64 multipurpose type cartridge compatible with the following types:
 * Ocean 128/256/512
 * Magic Desk (Magic Desk, Domark, HES Australia) up to 512Kbyte
-* Gmod2
+* GMod2
 * System3
 * C64GS
 * Dinamic
@@ -43,6 +43,16 @@ Cartrdige Types
 <br>Bank switching is done by writing to $DE00. The lower six (0-5) bits give the bank number (ranging from 0-64), if bit 7 is zero, the cartridge is active. If bit 7 is set ($DE00 = $80), the GAME/EXROM lines are disabled, turning on RAM at $8000-$9FFF instead of ROM. <br>GAME = 0, EXROM = 1 (8k config).
 <br>Games: *Badlands, Cyberball, Vindicators, Arcade Classic Pak, Beamrider, Decathlon, Double Dragon (Melbourne House), Frogger, Galaxions/Munchman, Ghostbusters, Kung Fu Master, Leaderboard, Novablast, Park Patrol, Pastfinder, Pitfall, Pitfall 2, River Raid, Space Shuttle, Tennis, Wonderboy, Zone Ranger.*
 
+**GMod2 (Individual Computer)**
+<br>This cart uses 512KiB Flash ROM (29F040) in 64 banks, mapped in at $8000-$9fff and has a 2KB serial EEPROM (m93C86).<br>GAME = 0, EXROM = 1 (8k config).<br>
+Bank switching is done by writing to $DE00.
+* bit7   (rw)  write enable (write 1), EEPROM data output (read)
+* bit6   (ro)  EXROM (0=active) and EEPROM chip select (1=selected)
+* bit5-0 (ro)  rom bank  bit5 EEPROM clock bit4 EEPROM data input<br>
+Specs at [http://wiki.icomp.de/wiki/GMod2](http://wiki.icomp.de/wiki/GMod2).<br>
+Games: variuos modern games like *Sould Force, Aviator Acrcade II, Planet X2.1, Monstro Giganto, Boxymoxy,* etc etc.
 
+**System3**
+<br>
 
 
