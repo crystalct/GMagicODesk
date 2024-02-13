@@ -79,3 +79,11 @@ Jumper configuration
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |Horizontal|Short 2 and 3|Short 2 and 3|Short 1 and 2|Short 1 and 2|Open|
 |![J6](./files/j6.png)|![J2](./files/j2.png)|![J2](./files/j2.png)|![J1](./files/j1.png)|![J1](./files/j1.png)|![J3](./files/j3.png)|
+<br>
+
+**Ocean 512**
+
+| J11 J12 | JEXROM | JGAME | JBANK | JType0-5 | J8K |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Horizontal|Short 2 and 3|Empty|Short 1 and 2|Short 1 and 2|Closed|
+|![J6](./files/j6.png)|![J2](./files/j2.png)|![J0](./files/j0.png)|![J1](./files/j1.png)|![J1](./files/j1.png)|![J4](./files/j4.png)|
