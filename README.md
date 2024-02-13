@@ -28,7 +28,7 @@ Appearance
 ----------
 ![appearance](./files/PCB1.1.png)
 
-Cartrdige Types
+Cartridge Types
 ---------------
 **Ocean**
 <br>Bank switching is done by writing to $DE00. The lower six bits give the bank number (ranging from 0-63).<br>
