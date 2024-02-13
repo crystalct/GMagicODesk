@@ -71,7 +71,7 @@ Jumper configuration
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |Horizontal|Short 2 and 3|Short 2 and 3|Short 1 and 2|Short 1 and 2|Closed|
 |![J6](./files/j6.png)|![J2](./files/j2.png)|![J2](./files/j2.png)|![J1](./files/j1.png)|![J1](./files/j1.png)|![J4](./files/j4.png)|
-
+<br>
 
 **Ocean 256**
 
