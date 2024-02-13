@@ -40,11 +40,11 @@ Cartrdige Types
   <br>Game: *Terminator 2.*
 
 **Magic Desk, Domark, HES Australia**
-<br>Bank switching is done by writing to $DE00. The lower six (0-5) bits give the bank number (ranging from 0-64), if bit 7 is zero, the cartridge is active. If bit 7 is set ($DE00 = $80), the GAME/EXROM lines are disabled, turning on RAM at $8000-$9FFF instead of ROM. <br>GAME = 0, EXROM = 1 (8k config).
+<br>Bank switching is done by writing to $DE00. The lower six (0-5) bits give the bank number (ranging from 0-64), if bit 7 is zero, the cartridge is active. If bit 7 is set ($DE00 = $80), the GAME/EXROM lines are disabled, turning on RAM at $8000-$9FFF instead of ROM. <br>GAME = 1, EXROM = 0 (8k config).
 <br>Games: *Badlands, Cyberball, Vindicators, Arcade Classic Pak, Beamrider, Decathlon, Double Dragon (Melbourne House), Frogger, Galaxions/Munchman, Ghostbusters, Kung Fu Master, Leaderboard, Novablast, Park Patrol, Pastfinder, Pitfall, Pitfall 2, River Raid, Space Shuttle, Tennis, Wonderboy, Zone Ranger.*
 
 **GMod2 (Individual Computer)**
-<br>This cart uses 512KiB Flash ROM (29F040) in 64 banks, mapped in at $8000-$9fff and has a 2Kb serial EEPROM (m93C86).<br>GAME = 0, EXROM = 1 (8k config).<br>
+<br>This cart uses 512KiB Flash ROM (29F040) in 64 banks, mapped in at $8000-$9fff and has a 2Kb serial EEPROM (m93C86).<br>GAME = 1, EXROM = 0 (8k config).<br>
 Bank switching is done by writing to $DE00.
 * bit7   (rw)  write enable (write 1), EEPROM data output (read)
 * bit6   (ro)  EXROM (0=active) and EEPROM chip select (1=selected)
@@ -54,6 +54,9 @@ Games: variuos modern games like *Soul Force, Aviator Acrcade II, Planet X2.1, M
 
 **System 3/C64GS**
 <br>ROM memory is organized in 64 banks of 8Kb ($2000), banked in at $8000-$9FFF. Bank switching is done by writing to address $DE00+X, where X is the bank number (STA $DE00,X).
-<br>GAME = 0, EXROM = 1 (8k config).<br>
+<br>GAME = 1, EXROM = 0 (8k config).<br>
 [schematic](./files/c64gs.png)
 
+**Dinamic**
+<br>ROM memory is organized in 16 banks 8Kb ($2000) banks located at $8000-$9FFF. Bank switching is done by reading from address $DE00+X, where X is the bank number (LDA $DE00,X).
+<br>GAME = 1, EXROM = 0 (8k config).<br>
