@@ -88,7 +88,7 @@ Components
 - 1N4148 (SMD 0805) x2 [D1, D2]
 - 10KΩ (SMD 1206) x2 [R1, R2]
 
-**System3 - C64GS - Dinamic**      
+**System 3 - C64GS - Dinamic**      
 - 74LS02 (or 74HCT02) (SOIC 14) [U6]
 - 100nF (SMD 0805) [C5]
 
