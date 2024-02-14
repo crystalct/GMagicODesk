@@ -63,6 +63,19 @@ Games: *Last Ninja Remix, Myth, C64GS cartridge (International Soccer, Flimbo's 
 <br>GAME = 1, EXROM = 0 (8k config).<br>
 Games: *After the War, Aspar GP Master, Astromarine Corps, Narco Police, Satan.*
 
+Components
+----------
+- 29F040 (PLCC 32) [U1] or 29F400 (PSOP 44) [U2]
+- 74LS273 (or 74HCT273) (SOP 20) [U4]
+- 74LS139 (or 74HCT139) (SOP 16) [U3]
+- 74LS02 (or 74HCT02) (SOIC 14) [U6]
+- 93C86 (SOP 8) [U5]
+- 100nF (SMD 0805) x4 [C0, C3, C4, C5]
+- 1N4148 (SMD 0805) x4 [D1, D2, D3, D4]
+- 10KΩ (SMD 1206) x3 [R1, R2, R3]
+- 560Ω (SMD 1206) [R4]
+- SMD led (SMD 0603) x2 [DE1, DE2] (UP/DOWN reverse mounted to see the light through the hole)
+
 Jumper configuration
 --------------------
 **Ocean 128**
