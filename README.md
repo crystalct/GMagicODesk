@@ -69,7 +69,9 @@ Components
 - 29F040 (PLCC 32) [U1] or 29F400 (PSOP 44) [U2]
 - 74LS273 (or 74HCT273) (SOP 20) [U4]
 - 100nF (SMD 0805) x2 [C0, C4]
-<br>**Magic Desk - Ocean 128/512**
+
+
+**Magic Desk - Ocean 128/512**
 - 74LS139 (or 74HCT139) (SOP 16) [U3]
 - 100nF (SMD 0805) [C3]
 <br>**Ocean 256**
