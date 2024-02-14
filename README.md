@@ -70,6 +70,7 @@ Components
 - 74LS139 (or 74HCT139) (SOP 16) [U3]
 - 74LS02 (or 74HCT02) (SOIC 14) [U6]
 - 93C86 (SOP 8) [U5]
+- BC557 (THT) or BC857A (SOT 23)
 - 100nF (SMD 0805) x4 [C0, C3, C4, C5]
 - 1N4148 (SMD 0805) x4 [D1, D2, D3, D4]
 - 10KΩ (SMD 1206) x3 [R1, R2, R3]
