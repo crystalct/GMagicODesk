@@ -70,26 +70,29 @@ Components
 - 74LS273 (or 74HCT273) (SOP 20) [U4]
 - 100nF (SMD 0805) x2 [C0, C4]
 
-
 **Magic Desk - Ocean 128/512**
 - 74LS139 (or 74HCT139) (SOP 16) [U3]
 - 100nF (SMD 0805) [C3]
-<br>**Ocean 256**
+
+**Ocean 256**
 - 74LS139 (or 74HCT139) (SOP 16) [U3]
 - 100nF (SMD 0805) [C3]
 - 1N4148 (SMD 0805) x2 [D3, D4]
 - 10KΩ (SMD 1206) [R3]
-<br>**GMod2**
+
+**GMod2**
 - 74LS139 (or 74HCT139) (SOP 16) [U3]
 - 100nF (SMD 0805) [C3]
 - 93C86 (SOP 8) [U5]
 - BC557 (THT) or BC857A (SOT 23)
 - 1N4148 (SMD 0805) x2 [D1, D2]
 - 10KΩ (SMD 1206) x2 [R1, R2]
-<br>**System3 - C64GS - Dinamic**      
+
+**System3 - C64GS - Dinamic**      
 - 74LS02 (or 74HCT02) (SOIC 14) [U6]
 - 100nF (SMD 0805) [C5]
-<br/>**Optional lighting eyes (all configurations)**
+
+**Optional lighting eyes (all configurations)**
 - 560Ω (SMD 1206) [R4]
 - SMD led (SMD 0603) x2 [DE1, DE2] (UP/DOWN reverse mounted to see the light through the hole)
 
