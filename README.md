@@ -148,3 +148,4 @@ Jumper configuration
 PCB
 ---
 If you want to contribute to my work, order the PCB directly from [PCBWAY](https://www.pcbway.com/project/shareproject/GMagic_O_Desk_9ed17163.html)
+![PCBWAY](./files/pcbway.png)
