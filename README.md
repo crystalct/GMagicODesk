@@ -144,3 +144,7 @@ Jumper configuration
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |Horizontal|Short 2 and 3|Empty|Short 2 and 3|Short 2 and 3|Closed|
 |![J6](./files/j6.png)|![J2](./files/j2.png)|![J0](./files/j0.png)|![J2](./files/j2.png)|![J2](./files/j2.png)|![J4](./files/j4.png)|
+
+PCB
+---
+If you want to contribute to my work, order the PCB directly from [PCBWAY](https://www.pcbway.com/project/shareproject/GMagic_O_Desk_9ed17163.html)
