@@ -61,6 +61,7 @@ Games: *Last Ninja Remix, Myth, C64GS cartridge (International Soccer, Flimbo's 
 **Dinamic**
 <br>ROM memory is organized in 16 banks 8Kb ($2000) banks located at $8000-$9FFF. Bank switching is done by reading from address $DE00+X, where X is the bank number (LDA $DE00,X).
 <br>GAME = 1, EXROM = 0 (8k config).<br>
+Schematic is the same as System 3/C64GS, as can be understood from the following [image](./files/Dinamic.png) provided to me by Mayem.<br>
 Games: *After the War, Aspar GP Master, Astromarine Corps, Narco Police, Satan.*
 
 Components
