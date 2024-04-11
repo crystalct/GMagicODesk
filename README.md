@@ -91,6 +91,8 @@ Components
 
 **System 3 - C64GS - Dinamic**      
 - 74LS02 (or 74HCT02) (SOIC 14) [U6]
+- 1N4148 (SMD 0805) x2 [D1, D2]
+- 10KΩ (SMD 1206) R1
 - 100nF (SMD 0805) [C5]
 
 **Optional lighting eyes (all configurations)**
