@@ -101,6 +101,13 @@ Components
 
 Jumper configuration
 --------------------
+**All configuration**
+| JWrite | JBOOT |
+|:---:|:---:|
+|Short 1 and 2|Short 2 and 3|
+|![J1](./files/j1.png)|![J2](./files/j2.png)|
+<br>
+
 **Ocean 128**
 
 | J11 J12 | JEXROM | JGAME | JBANK | JType0-5 | J8K |
